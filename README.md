@@ -1,6 +1,6 @@
 ## Airbnb
 
-This is an clone website of Airbnb. I'm creating this wesbite to practice Material UI best practices.
+This is an clone website of Airbnb. I'm creating this wesbite to practice Material UI with real example & best practices.
 
 ## License
 
