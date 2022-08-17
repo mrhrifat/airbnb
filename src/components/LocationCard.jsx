@@ -1,9 +1,9 @@
 import React from "react";
-import { Grid, Box, Container } from "@mui/material/Grid";
+import { Grid, Box, Container } from "@mui/material";
 import { locations as cardLocations } from "data/mock-data";
 import CarouselCard from "./CarouselCard";
 
-const LocationCards = () => {
+const LocationCard = () => {
   const [cards] = React.useState(cardLocations);
   if (!cards.length) {
     return null;
@@ -25,4 +25,4 @@ const LocationCards = () => {
   );
 };
 
-export default LocationCards;
+export default LocationCard;
