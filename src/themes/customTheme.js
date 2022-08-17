@@ -54,7 +54,7 @@ export const theme = createTheme({
       defaultProps: {
         size: "small",
         p: 0,
-        // disableRipple: true,
+        disableRipple: true,
       },
       variant: "text",
     },
