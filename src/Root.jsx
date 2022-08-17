@@ -1,5 +1,6 @@
 import { Box, CssBaseline } from "@mui/material";
 import Header from "components/Header";
+import OptionsTab from "components/OptionTabs";
 import React from "react";
 
 const Root = () => {
@@ -15,6 +16,7 @@ const Root = () => {
       >
         <Box>
           <Header />
+          <OptionsTab />
         </Box>
       </Box>
     </>
