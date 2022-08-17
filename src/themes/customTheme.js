@@ -54,13 +54,13 @@ export const theme = createTheme({
       defaultProps: {
         size: "small",
         p: 0,
-        disableRipple: true,
+        // disableRipple: true,
       },
       variant: "text",
     },
     MuiTab: {
       defaultProps: {
-        disableRipple: true,
+        // disableRipple: true,
       },
     },
   },
